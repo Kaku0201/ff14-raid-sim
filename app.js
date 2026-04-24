@@ -1,3 +1,1 @@
-renderMap()
-handleClick()
-checkAnswer()
+console.log("raid sim loaded");
