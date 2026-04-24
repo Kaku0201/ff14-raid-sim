@@ -1,5 +1,42 @@
 body{
-  font-family:sans-serif;
-  text-align:center;
-  padding:40px;
+text-align:center;
+font-family:sans-serif;
+}
+
+.arena{
+margin:40px auto;
+width:500px;
+height:500px;
+position:relative;
+border:3px solid black;
+border-radius:50%;
+}
+
+.marker,.boss,.spot{
+position:absolute;
+transform:translate(-50%,-50%);
+}
+
+.a{top:8%;left:50%;}
+.c{bottom:2%;left:50%;}
+.d{top:50%;left:8%;}
+.b{top:50%;right:2%;}
+
+.boss{
+top:50%;
+left:50%;
+font-weight:bold;
+}
+
+.one{top:25%;right:20%;}
+.two{bottom:25%;right:20%;}
+.three{bottom:25%;left:20%;}
+.four{top:25%;left:20%;}
+
+.spot{
+width:60px;
+height:60px;
+border-radius:50%;
+font-size:20px;
+cursor:pointer;
 }
